@@ -2,26 +2,6 @@ class InternalServerError(Exception):
     pass
 
 
-class SchemaValidationError(Exception):
-    pass
-
-
-class MovieAlreadyExistsError(Exception):
-    pass
-
-
-class UpdatingMovieError(Exception):
-    pass
-
-
-class DeletingMovieError(Exception):
-    pass
-
-
-class MovieNotExistsError(Exception):
-    pass
-
-
 class EmailAlreadyExistsError(Exception):
     pass
 
