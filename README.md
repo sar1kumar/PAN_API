@@ -23,5 +23,6 @@ The valid PAN Card number must satisfy the following conditions:
 ```
 ### PAN API ###
 
+Install the required modules and dependencies and run api.py file.
 
 ![IMG](https://github.com/sar1kumar/PAN_API/blob/main/pics/Screenshot_2020-12-09%20PAN%20DATA%20API.png)
