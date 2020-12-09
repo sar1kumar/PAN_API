@@ -21,9 +21,25 @@ The valid PAN Card number must satisfy the following conditions:
     else:
         abort(400, 'ValidationError')
 ```
-### PAN API ###
+## PAN API ##
 
-Install the required modules and dependencies and run api.py file.
+Install the required modules and dependencies and run app.py file.
+
+
+### Installations ###
+
+**POSTMAN**
+
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+cd ~/api
+python app.py
+```
+
 
 ![IMG](https://github.com/sar1kumar/PAN_API/blob/main/pics/Screenshot_2020-12-09%20PAN%20DATA%20API.png)
 
