@@ -41,6 +41,9 @@ cd ~/api
 python app.py
 ```
 
+### Swagger Documentation of API running on https://127.0.0.1:5000
+
+**The requests of https://127.0.0.1:5000/user/ can be executed only by admin to change,delete,get the users info from the database.**
 
 ![IMG](https://github.com/sar1kumar/PAN_API/blob/main/pics/Screenshot_2020-12-09%20PAN%20DATA%20API.png)
 
@@ -113,3 +116,9 @@ Install POSTMAN to test the API
 * There are two main collections, for User collection for which token would be generated, and a PanClient collection which will be related to the User collection. For each new verification request a new client with client_id will be generated.
 
 ![IMG](https://github.com/sar1kumar/PAN_API/blob/main/pics/Screenshot%20from%202020-12-09%2013-25-34.png)
+
+
+
+
+#### UPDATES
+* Implement API rate limit using Redis.
