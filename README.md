@@ -13,7 +13,7 @@ The valid PAN Card number must satisfy the following conditions:
   *  It should not contain any white spaces
 
 ```python
-    # Python code for Pan Validation
+    # Python code for Pan Validation in API
     def validate_pan_number(pan_number):
     # Validates if the given value is a valid PAN number or not, if not raise ValidationError
     if re.match(r'^[A-Z]{5}[0-9]{4}[A-Z]$', str(pan_number)):
@@ -21,5 +21,7 @@ The valid PAN Card number must satisfy the following conditions:
     else:
         abort(400, 'ValidationError')
 ```
+### PAN API ###
 
-### 
+
+![IMG](https://github.com/sar1kumar/PAN_API/blob/main/pics/Screenshot_2020-12-09%20PAN%20DATA%20API.png)
