@@ -28,7 +28,8 @@ Install the required modules and dependencies and run app.py file.
 
 ### Installations ###
 
-**POSTMAN**
+* INSTALL **POSTMAN**
+* Execute the following commands in the Terminal   #Linux
 
 ```bash
 pip install -r requirements.txt
